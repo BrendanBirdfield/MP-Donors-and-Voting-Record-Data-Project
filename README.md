@@ -9,5 +9,8 @@ This data was then processed using pandas and python to clean text format of vot
 MP's donations were obtained from the official uk parliament website: https://members.parliament.uk/members/commons/interests/publications.
 This was then processed in python using pandas text processing was used to remove white space and replace characters to keep categories consitent. Missing values were filled with reasonable replacement values such as replacing empty donation amounts with 0 in order to keep data and retain usefulness of all rows. 
 
-Once processed, this data was then exported as a csv and imported into power BI. Two main pages were created. The first allows searching for specific mps or political parties and specific vote categroies using a slicers. These slicers connect to a bar graph of sentiment allowing comparison of voting sentiment between indiviual mp's and or political parties.
+Once processed, this data was then exported as a csv and imported into power BI. Two main pages were created. The first allows searching for specific mps or political parties and specific vote categroies using a slicers.
+![Alt text](/MP-Donors-and-Voting-Record-Data-Project/Party Voting.png?raw=true)
+
+These slicers connect to a bar graph of sentiment allowing comparison of voting sentiment between indiviual mp's and or political parties.
 A second page allows for comparison of donations by amounts and categories between mps and politcal parties. 
