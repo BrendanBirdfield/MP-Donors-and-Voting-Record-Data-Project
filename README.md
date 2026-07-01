@@ -23,4 +23,4 @@ This same page allows comparing individual MP's on specific votes:
 
 A second page allows for comparison of donations by amounts and donation categories between MP's and politcal parties.
 A tooltips pop up appears when scrolling over each category to show summary details of each individual donation.
-<img width="1919" height="1029" alt="Image" src="https://github.com/user-attachments/assets/58144002-605c-459d-898d-c943c7361dca" />
+<img width="1919" height="1079" alt="Image" src="https://github.com/user-attachments/assets/6ae981fc-afc1-4efd-8dce-f644ad939570" />
