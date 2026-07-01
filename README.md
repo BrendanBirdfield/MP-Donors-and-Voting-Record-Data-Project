@@ -9,8 +9,15 @@ This data was then processed using pandas and python to clean text format of vot
 MP's donations were obtained from the official uk parliament website: https://members.parliament.uk/members/commons/interests/publications.
 This was then processed in python using pandas text processing was used to remove white space and replace characters to keep categories consitent. Missing values were filled with reasonable replacement values such as replacing empty donation amounts with 0 in order to keep data and retain usefulness of all rows. 
 
-Once processed, this data was then exported as a csv and imported into power BI. Two main pages were created. The first allows searching for specific mps or political parties and specific vote categroies using a slicers.
+Once processed, this data was then exported as a csv and imported into power BI. Two main pages were created. 
+The first allows comparison of voting records of politcal parties using slicers to select politcal parties or individual MP's. The second slicer is for choosing a specific vote to compare.
+The neutrality constant line indicateds a 50/50 split of votes for and against anything above the line represents an increasing for/pro sentiment ie. voting generally for or mostly for. 
+Anything below the line indicates a voting sentiment against the selected vote. 
+Below compares the average voting sentiment of all Parties on voting for a stricter asylum system. As expected the Reform and Consevative parties voted strongly in favour. 
 <img width="1919" height="1031" alt="Image" src="https://github.com/user-attachments/assets/7f7e940a-522c-4132-92c8-30253c681a97" />
+This same page allows comparing individual MP's on specific votes:
+<img width="1919" height="1029" alt="Image" src="https://github.com/user-attachments/assets/58144002-605c-459d-898d-c943c7361dca" />
 
-These slicers connect to a bar graph of sentiment allowing comparison of voting sentiment between indiviual mp's and or political parties.
-A second page allows for comparison of donations by amounts and categories between mps and politcal parties. 
+A second page allows for comparison of donations by amounts and donation categories between MP's and politcal parties.
+A tooltips pop up appears when scrolling over each category to show summary details of each individual donation.
+<img width="1919" height="1029" alt="Image" src="https://github.com/user-attachments/assets/58144002-605c-459d-898d-c943c7361dca" />
