@@ -8,6 +8,7 @@ This data was then processed using pandas and python to clean text format of vot
 
 MPs donations were obtained from the official uk parliament website: https://members.parliament.uk/members/commons/interests/publications.
 This was then processed in python using pandas text processing, to remove white space and replace characters to keep categories consistent. Missing values were filled with reasonable replacement values such as replacing empty donation amounts with 0 in order to keep data thus retaining usefulness of all rows. 
+This process is documented in the MPDonorCorrelation.ipynb file: https://github.com/BrendanBirdfield/MP-Donors-and-Voting-Record-Data-Project/blob/main/MPDonorCorrelation.ipynb
 
 Once processed, this data was then exported as a csv and imported into power BI. 
 A star schema data model was used to split individual votes into a distinct fact table with relationships linked to two dimension tables representing information on individual MPs such as their political party and a dimension table for each donation made to every MP.
